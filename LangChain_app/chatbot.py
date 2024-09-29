@@ -9,11 +9,11 @@ from dotenv import load_dotenv
 
 # from google.cloud import aiplatform
 
-# aiplatform.init(project="gen-lang-client-0401673135")
+# aiplatform.init(project="project_id")
 
-os.environ["MISTRAL_API_KEY"] = "5iMdiJdSCsS3Um1JSXZE5U7R8IMRj2pG"
+os.environ["MISTRAL_API_KEY"] = "MISTRAL_API_KEY"
 os.environ["LANGCHAIN_TRACING_V2"]="true"
-os.environ["LANGCHAIN_API_KEY"]="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"
+os.environ["LANGCHAIN_API_KEY"]="LANGCHAIN_API_KEY"
 
 ## Prompt Template
 
